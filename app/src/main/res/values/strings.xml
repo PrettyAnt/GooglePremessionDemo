@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2015 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+    <string name="app_name">运行时权限</string>
+    <string name="intro_message">
+        <![CDATA[
+            此示例显示Android M及更高版本中可用的运行时权限。
+            显示登录屏幕以跟踪执行。
+            如果在Android M设备上执行，则会显示访问联系人的附加选项。
+            以可选、M及以上权限声明的.
+        ]]>
+    </string>
+    <string name="ok">好的</string>
+    <string name="contacts_string">联系人总数: %1$,d\n第一个联系人:<b>%2$s</b></string>
+    <string name="contacts_none">设备上为存储联系人.</string>
+    <string name="contacts_empty">联系人未加载完毕.</string>
+    <string name="add_contact">添加一个联系人</string>
+    <string name="show_contact">显示第一联系人</string>
+    <string name="contacts_intro">此片段演示如何访问设备上的联系人数据库。\n
+        单击“添加联系人”将名为“虚拟条目”的新联系人直接添加到数据库中。\n
+        单击“显示第一个联系人”访问联系人数据库以显示第一个联系人的姓名。</string>
+    <string name="camera_unavailable"><b>相机无法打开。</b>\n当相机不可用（例如它已在使用）或系统拒绝访问（例如当相机访问被禁用）时，会发生这种情况。.</string>
+    <string name="back">返回</string>
+    <string name="show_camera">获取相机权限</string>
+    <string name="show_contacts">获取联系人权限</string>
+    <string name="main_introduction">点击下方按钮显示相机预览获取和联系人信息预览.\n请注意，联系人选项仅在Android M上可用，以说明可选选项的用法, 在较低的SDK平台上不请求的M-only权限.</string>
+    <string name="permision_available_camera">开启了相机权限，即将打开相机.</string>
+    <string name="permision_available_contacts">权限被允许，通讯录即将打开</string>
+    <string name="permissions_not_granted">权限未被允许.</string>
+    <string name="permission_camera_rationale">需要相机权限才能显示相机预览.</string>
+    <string name="permission_contacts_rationale">需要联系人权限来访问.</string>
+    <string name="permission_camera">请打开相机权限以正常使用本功能！</string>
+</resources>
